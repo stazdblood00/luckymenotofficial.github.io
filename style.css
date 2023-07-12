@@ -329,11 +329,17 @@ nav ul li a:hover::after{
         width: 100%;
         height: 500px;
     }
+    .image-container {
+        margin-top: 30px;
+    }
 }
 @media (max-width: 767px){
     .video-ads iframe {
         width: 600px;
         height: 400px;
+    }
+    .image-container {
+        margin-top: 50px;
     }
 }
 @media (max-width: 575px){
@@ -342,6 +348,6 @@ nav ul li a:hover::after{
         height: 300px;
     }
     .image-container {
-    margin-top: 50px;
- }
+        margin-top: 80px;
+    }
 }
