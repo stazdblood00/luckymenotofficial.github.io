@@ -341,4 +341,7 @@ nav ul li a:hover::after{
         width: 450px;
         height: 300px;
     }
+    .image-container {
+    margin-top: 50px;
+ }
 }
