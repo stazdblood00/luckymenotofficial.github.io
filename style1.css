@@ -303,7 +303,6 @@ nav ul li a:hover::after{
     padding: 50px;
     margin-left: 50px;
 }
-
 @media (max-width: 575px) {
     .foot-container .row {
       flex-direction: column;
@@ -347,3 +346,4 @@ nav ul li a:hover::after{
         margin-top: 0;
     }
   }
+ 

@@ -134,12 +134,13 @@
 
 .contactForm .inputBox input[type="submit"]{
     width: 100px;
-    background: #b80e0e;
-    color: black;
+    background:rgb(105, 98, 98);
+    color: white;
     border: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 @media (max-width: 991px)
@@ -353,6 +354,9 @@ nav ul li a:hover::after{
     .socials {
       margin-top: 20px;
     }
+    .contact {
+        margin-top: 100px;
+    }
   }
   
 @media (max-width: 767px) {
@@ -370,6 +374,9 @@ nav ul li a:hover::after{
     .socials {
       margin-top: 0;
     }
+    .contact {
+        margin-top: 150px;
+    }
   }
   
   @media (max-width: 991px) {
@@ -379,6 +386,9 @@ nav ul li a:hover::after{
     .socials {
         margin-top: 0;
     }
+    .contact {
+        margin-top: 150px;
+    }
   }
   @media (max-width: 575px){
     .socials .row {
@@ -386,5 +396,8 @@ nav ul li a:hover::after{
       }
       .socials {
         margin-top: 0;
+    }
+    .contact {
+        margin-top: 150px;
     }
   }
